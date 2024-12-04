@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temples in India</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    /* Home Section */
+    #home {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    #home img {
+      width: 80%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    /* Temples Section */
+    #temples {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background-color: #e9ecef;
+    }
+
+    .temple {
+      width: 45%;
+      margin: 20px;
+      text-align: center;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .temple img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .temple h3 {
+      margin-top: 10px;
+      font-size: 24px;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      display: inline-block;
+    }
+
+    /* Gallery Section */
+    #gallery {
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    .gallery-category {
+      margin-bottom: 30px;
+    }
+
+    .gallery-category h3 {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .gallery-item {
+      width: 30%;
+      margin: 10px;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Blog Section */
+    #blog {
+      padding: 40px 20px;
+      background-color: #e9ecef;
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 400px;
+      border: none;
+    }
+
+    /* Contact Section */
+    #contact {
+      padding: 40px 20px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .temple {
+        width: 100%;
+      }
+
+      .gallery-item {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#temples">Famous Temples</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home">
+  <h1>Explore the Temples of India</h1>
+  <p>India is home to many ancient and beautiful temples with rich cultural heritage. Discover the sacred destinations that define the spiritual fabric of the country.</p>
+  <img src="https://images.saymedia-content.com/.image/t_share/MTc0MTYyMDU0NzcxMzg1ODUy/most-famous-temples-of-india.jpg" alt="Golden Temple">
+</section>
+
+<!-- Temples Section -->
+<section id="temples">
+  <h2>Explore Famous Temples</h2>
+  <div class="temple">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.BPxvjVvo8YmPwrFf3upw0gHaE8&pid=Api&P=0&h=180" alt="Golden Temple">
+    <h3>Golden Temple, Amritsar</h3>
+    <p>Known for its breathtaking beauty and peaceful environment, the Golden Temple is a major pilgrimage site in India.</p>
+    <a href="https://en.wikipedia.org/wiki/Golden_Temple" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://images.indianexpress.com/2021/12/29-2.jpg?resize=728,405" alt="Kashi Vishwanath Temple">
+    <h3>Kashi Vishwanath Temple, Varanasi</h3>
+    <p>One of the most famous and sacred temples dedicated to Lord Shiva, located in the spiritual city of Varanasi.</p>
+    <a href="https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://behindeverytemple.org/wp-content/uploads/2020/05/somnathnew-1536x576.png" alt="Somnath Temple">
+    <h3>Somnath Temple, Gujarat</h3>
+    <p>A historical and religious landmark, the Somnath Temple is one of the twelve Jyotirlingas of Lord Shiva.</p>
+    <a href="https://en.wikipedia.org/wiki/Somnath" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+  <h2>Temples Gallery</h2>
+  <div class="gallery-category">
+    <h3>North India Temples</h3>
+    <div class="gallery-item"><img src="https://imgcld.yatra.com/ytimages/image/upload/v1461929822/Delhi-Akshardham_Temple.jpg" alt="Akshardham Temple"></div>
+    <div class="gallery-item"><img src="https://static.toiimg.com/thumb/69372770/2.jpg?width=748&height=499" alt="Birla Mandir"></div>
+    <div class="gallery-item"><img src="https://sahbaarchitect.com/wp-content/uploads/2021/02/lotus-43-2048x1504.jpg"Akshardham Temple"></div>
+    <div class="gallery-item"><img src="https://www.holidify.com/images/bgImages/BADRINATH.jpg" alt="Birla Mandir"></div>
+    <div class="gallery-item"><img src="https://media.tripinvites.com/places/kolkata/birla-mandir/birla-mandir-kolkata-featured.jpg" alt="Akshardham Temple"></div>
+    <div class="gallery-item"><img src="https://tse3.mm.bing.net/th?id=OIP.TaK3euvY5hHpSBr1GMlhPgHaFw&pid=Api&P=0&h=180" alt="Birla Mandir"></div>
+
+  </div>
+  <div class="gallery-category">
+    <h3>South India Temples</h3>
+    <div class="gallery-item"><img src="https://www.dynamitenews.com/images/2016/01/13/dn-dn-darshan-tirumala-tirupati-temple-andhra-pradesh/1452690840_5.jpg" alt="Meenakshi Temple"></div>
+    <div class="gallery-item"><img src="https://www.astroved.com/astropedia/assets/images/temples/Kanipakam-Temple.jpg" alt="Ramanathaswamy Temple"></div>
+    <div class="gallery-item"><img src="https://www.holidify.com/images/cmsuploads/compressed/A-beautiful-image-of-Kamakshi-Amman-Temple-pond-with-towers_20171219212102.jpg" alt="Akshardham Temple"></div>
+    <div class="gallery-item"><img src="https://www.tripsavvy.com/thmb/d8MUgbOmy5O36TG1cjOA-jWl7Ns=/2128x1409/filters:no_upscale():max_bytes(150000):strip_icc()/shore-temple-640319518-58e3eaf25f9b58ef7e113e1f.jpg" alt="Birla Mandir"></div>
+    <div class="gallery-item"><img src="https://tse4.mm.bing.net/th?id=OIP.Ccq6SYDheJb623QmGBwkTAHaE8&pid=Api&P=0&h=180"Akshardham Temple"></div>
+	
+    
+  </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog">
+  <h2>Read More About Temples in India</h2>
+  <h3>Articles</h3>
+  <ul>
+    <li><a href="https://www.google.com/search?q=temples+in+india" target="_blank">Temples in India (Google Search)</a></li>
+    <li><a href="https://www.google.com/search?q=ancient+temples+in+india" target="_blank">Ancient Temples in India (Google Search)</a></li>
+  </ul>
+  <h3>YouTube Videos</h3>
+  <iframe src="C:\Users\sidda\Downloads\WhatsApp Video 2024-12-04 at 5.18.37 PM.mp4" title="YouTube video player"></iframe>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form action="submit_form.php" method="post">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<script>
+  // Simple JavaScript for smooth scrolling (optional)
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
